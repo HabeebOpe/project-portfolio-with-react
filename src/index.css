@@ -8,9 +8,6 @@
   .home {
     padding: 0;
   }
-  .index-js {
-    padding: 0;
-  }
 }
 .nav-bar {
   display: flex;
@@ -48,12 +45,6 @@
   color: #000;
   background-color: transparent;
 }
-@media (max-width: 765px) {
-  .home-section {
-    background-position-x: -200px;
-    padding: 10px;
-  }
-}
 .quotes h1,
 .fact-div {
   padding: 10px;
@@ -83,35 +74,33 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 31%;
-  height: 280px;
+  height: 290px;
   background-color: gold;
   overflow: hidden;
   border-radius: 20px;
   margin: 8px;
 }
-@media screen and (max-device-width: 767px) {
+@media screen and (max-width: 640px) {
   .item-div {
     padding: 0;
   }
   .feature {
     padding: 20px;
-    background-color: green;
   }
   .feature .item {
     width: 100%;
     margin: 10px 0;
   }
 }
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-width: 640px) and (max-width: 900px) {
   .item-div {
     padding: 0;
   }
   .feature {
     padding: 10px;
-    background-color: blue;
   }
   .feature .item {
-    width: 45%;
+    width: 42%;
     margin: 10px;
   }
 }
@@ -162,13 +151,12 @@
   transition: 0.5s ease;
 }
 .item:hover .description {
-  height: 220px;
+  height: 225px;
 }
 .item .description h1 {
-  /* display: flex;
-  align-items: center; */
+  display: flex;
+  align-items: center;
   font-size: 25px;
-  padding-right: 10px;
   height: 60px;
   overflow: hidden;
   white-space: nowrap;
@@ -177,8 +165,7 @@
 .languages {
   display: flex;
   align-items: center;
-  height: 40px;
-  padding: 5px;
+  height: 50px;
 }
 .languages li {
   margin: 0 5px;

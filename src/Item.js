@@ -53,7 +53,7 @@ export default function Item() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
                 maiores ut ducimus necessitatibus, et doloremque
               </p>
-              <ul>Frontend lang/Frameworks</ul>
+              <ul>Frontend lang...</ul>
             </div>
           </a>
         </li>
@@ -63,7 +63,7 @@ export default function Item() {
               <span>20</span> Projects
             </div>
             <div className="description">
-              <h1>React Projects</h1>
+              <h1>React Proj...</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
                 maiores ut ducimus necessitatibus, et doloremque
