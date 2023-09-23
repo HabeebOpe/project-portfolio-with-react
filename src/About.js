@@ -6,7 +6,7 @@ export default function About() {
       <div className="about-flex">
         <h1>Meet the Developer</h1>
         <div className="about-des">
-          <p>
+          <p className="about-dev">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
             sapiente tenetur sequi ab nam, architecto quasi nulla minus voluptas
             ipsam repellat ullam molestias laboriosam a fuga autem repellendus
@@ -14,18 +14,24 @@ export default function About() {
           </p>
           <ul>
             <li>
-              <i className="fa-brands fa-twitter"></i> <p>Twitter</p>
+              <a href="https://github.com/HabeebOpe">
+                <i className="fa-brands fa-github"></i>
+                <p>Git-hub</p>
+              </a>
             </li>
             <li>
-              <i className="fa-brands fa-github"></i> <p>Git-hub</p>
+              <a href="https://twitter.com/habeebullaope?t=9baxs9N4-rDfri5OI2EFMA&s=09">
+                <i className="fa-brands fa-twitter"></i>
+                <p>Twitter</p>
+              </a>
             </li>
             <li>
-              <i className="fa-brands fa-discord"></i> <p>Discord</p>
+              <a href="https://medium.com/@habeebullahokunlola">
+                <i className="fa-brands fa-medium"></i>
+                <p>Medium</p>
+              </a>
             </li>
           </ul>
-          <p className="view-portfolio">
-            <span>View portfolio</span> <i className="fa-brands fa-twitter"></i>
-          </p>
         </div>
       </div>
     </div>

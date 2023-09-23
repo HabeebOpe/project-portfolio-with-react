@@ -13,6 +13,7 @@ import Projectvanilla from "./Projectvanilla";
 import Projectgame from "./Projectgame";
 import Projectlanding from "./Projectlanding";
 import Projectreact from "./Projectreact";
+import Header from "./Header";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="/react" element={<Projectreact />} />
         </Routes>
       </div>
+      <Header />
       <Routes>
         <Route path="/" element={<Item />} />
         <Route path="/cssdesign" element={<Cssdesign />} />

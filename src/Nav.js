@@ -18,9 +18,9 @@ export default function Nav() {
             <i className="fa-brands fa-twitter"></i>
           </span>
         </a>
-        <a href="https://t.me/OpeHabeeb">
+        <a href="https://medium.com/@habeebullahokunlola">
           <span>
-            <i className="fa-brands fa-discord"></i>
+            <i className="fa-brands fa-medium"></i>
           </span>
         </a>
       </div>
