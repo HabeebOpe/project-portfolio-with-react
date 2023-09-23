@@ -9,7 +9,7 @@ export default function Cssdesign() {
         <li className="proitem">
           <div className="item-img">
             <h2 className="projname">Go back to top button</h2>
-            <img src={img} />
+            <img src={img} alt="proj" />
           </div>
           <div>
             <ul className="project-lang">
