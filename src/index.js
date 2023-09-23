@@ -1,19 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 import "./index.css";
-import Section from "./Section";
-import Nav from "./Nav";
-import Item from "./Item";
+import "./prolist.css";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <div className="index-class">
-      <div className="home">
-        <Nav />
-        <Section />
-      </div>
-      <Item />
-    </div>
-  </React.StrictMode>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 );

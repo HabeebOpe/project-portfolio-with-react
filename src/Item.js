@@ -1,12 +1,12 @@
 import React from "react";
-import cssLogo from "./asset/item.png";
+import { Link } from "react-router-dom";
 
 export default function Item() {
   return (
     <div className="item-div">
       <ul className="feature">
         <li className="item">
-          <a href="#">
+          <Link to="/cssdesign">
             <div className="project-number">
               <span>20</span> Projects
             </div>
@@ -21,10 +21,10 @@ export default function Item() {
                 <li>CSS</li>
               </ul>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="item">
-          <a href="#">
+          <Link to="/vanilla">
             <div className="project-number">
               <span>20</span> Projects
             </div>
@@ -40,10 +40,10 @@ export default function Item() {
                 <li>Javascript</li>
               </ul>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="item">
-          <a href="#">
+          <Link to="/landing">
             <div className="project-number">
               <span>20</span> Projects
             </div>
@@ -55,10 +55,10 @@ export default function Item() {
               </p>
               <ul>Frontend lang...</ul>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="item">
-          <a href="#">
+          <Link to="/react">
             <div className="project-number">
               <span>20</span> Projects
             </div>
@@ -70,10 +70,10 @@ export default function Item() {
               </p>
               <ul>React Library</ul>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="item">
-          <a href="#">
+          <Link to="/game">
             <div className="project-number">
               <span>20</span> Projects
             </div>
@@ -85,7 +85,7 @@ export default function Item() {
               </p>
               <ul>HTML CSS Javascript</ul>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
