@@ -1,6 +1,6 @@
 import React from "react";
 import "./prolist.css";
-import img from "./asset/27969_88.jpg";
+import img from "./asset/background2.png";
 
 export default function Cssdesign() {
   return (
