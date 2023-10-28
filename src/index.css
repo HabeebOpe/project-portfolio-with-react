@@ -5,7 +5,8 @@
   margin: 0;
   list-style: none;
   outline: none;
-  font-family: "Space Grotesk", sans-serif;
+  /* font-family: "Space Grotesk", sans-serif; */
+  font-family: 'Rajdhani', sans-serif;
 }
 body {
   background-color: #1d1c1c;
