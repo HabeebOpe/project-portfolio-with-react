@@ -356,7 +356,7 @@ body {
 
 /*-----------SUBSCRIBTION SECTION--------- */
 .subscription {
-  padding: 5% 10%;
+  padding: 10% 10%;
   display: flex;
   justify-content: right;
   background-image: url(./asset/back.png);
