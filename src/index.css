@@ -9,18 +9,19 @@
   font-family: 'Rajdhani', sans-serif;
 }
 :root {
-  --primary-color: green;
+  --body-color: #1d1c1c;
+  --primary-color: darkorange;
   --secondary-color: #1d1c1c;
   --text: #fff;
 }
 body {
-  background-color: #1d1c1c;
+  background-color: var(--body-color);
   position: relative;
 }
 .home {
   display: flex;
   flex-wrap: wrap;
-  height: 100vh;
+  min-height: 100vh;
   padding: 0 8%;
   background-image: url(./asset/background2.png);
   background-repeat: no-repeat;
@@ -71,10 +72,11 @@ body {
   font-size: 6rem;
   font-family: 'Rajdhani', sans-serif;
   text-shadow: 3px 6px darkorange; 
+  padding: 0;
 }
 .quotes h1,
 .fact-div {
-  padding: 10px 0;
+  padding: 5px 0;
   text-align: center;
   color: var(--text);
   font-family: 'Rajdhani', sans-serif;
@@ -82,9 +84,11 @@ body {
 .fact-div p{
   font-size: 1.5rem;
   font-family: 'Rajdhani', sans-serif;
+  text-shadow: 1px 1px #000; 
 }
 .quotes .become-a-developer {
-  padding: 10px;
+  font-size: 2rem;
+  padding: 5px;
   text-align: center;
 }
 @media (max-width: 765px) {
@@ -157,7 +161,7 @@ body {
   font-size: 18px;
   margin-left: 5px;
 }
-.item:hover .project-name{
+.item:hover .project-number{
   opacity: 0;
 }
 .item .display-name{
@@ -219,7 +223,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .heading h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .item-div {
     padding: 5% 0;
@@ -423,7 +427,7 @@ p {
 }
 @media (max-width: 640px) {
   .subscription {
-    padding: 10%;
+    padding: 5%;
   }
   .subscription form {
     width: 100%;

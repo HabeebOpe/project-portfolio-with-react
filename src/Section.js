@@ -9,7 +9,6 @@ export default function Section() {
           Hey, Welcome to<span> Zodiac </span>Project Base.
         </h1>
         <div className="fact-div">
-          <h2 className="did-you-know">Did you know ⁉️</h2>
           <p>
             Building projects is the most important way to learn anything, and
             <span> WEB DEVELOPMENT</span> is no exception

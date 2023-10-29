@@ -10,7 +10,9 @@ export default function About() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
             sapiente tenetur sequi ab nam, architecto quasi nulla minus voluptas
             ipsam repellat ullam molestias laboriosam a fuga autem repellendus
-            numquam accusantium!
+            numquam accusantium!. 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+            sapiente tenetur sequi ab nam, architecto quasi nulla minus voluptas.
           </p>
           <ul>
             <li>
