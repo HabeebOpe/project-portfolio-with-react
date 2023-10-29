@@ -7,12 +7,8 @@ export default function About() {
         <h1>Meet the Developer</h1>
         <div className="about-des">
           <p className="about-dev">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
-            sapiente tenetur sequi ab nam, architecto quasi nulla minus voluptas
-            ipsam repellat ullam molestias laboriosam a fuga autem repellendus
-            numquam accusantium!. 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
-            sapiente tenetur sequi ab nam, architecto quasi nulla minus voluptas.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sapiente tenetur sequi ab nam, architecto quasi nulla minus voluptas ipsam repellat ullam molestias.
+            laboriosam a fuga autem repellendusnumquam accusantium! orem isapiente tenetur sequi ab nam, architecto quasi nulla minus voluptas.
           </p>
           <ul>
             <li>
