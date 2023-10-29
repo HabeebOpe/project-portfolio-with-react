@@ -14,7 +14,8 @@ export default function Item() {
           <Link to="/cssdesign">
             <img src={cssImage} />
             <div className="project-number">
-              <span>20</span> Projects
+              <h3>20</h3>
+              <p>Project</p>
             </div>
             <h1 className="display-name">CSS Design</h1>
             <div className="description">
@@ -38,7 +39,8 @@ export default function Item() {
           <Link to="/vanilla">
           <img src={vanillaImg} />
             <div className="project-number">
-              <span>20</span> Projects
+              <h3>20</h3>
+              <p>Project</p>
             </div>
             <h1 className="display-name">Vanilla Js</h1>
             <div className="description">
@@ -61,7 +63,8 @@ export default function Item() {
           <Link to="/landing">
           <img src={landingImg} />
             <div className="project-number">
-              <span>20</span> Projects
+              <h3>20</h3>
+              <p>Project</p>
             </div>
             <h1 className="display-name">Landing Page</h1>
             <div className="description">
@@ -82,7 +85,8 @@ export default function Item() {
           <Link to="/react">
           <img src={reactImg} />
             <div className="project-number">
-              <span>20</span> Projects
+              <h3>20</h3>
+              <p>Project</p>
             </div>
             <h1 className="display-name">Reactjs Project</h1>
             <div className="description">
@@ -103,7 +107,8 @@ export default function Item() {
           <Link to="/game">
           <img src={gameImg} />
             <div className="project-number">
-              <span>20</span> Projects
+              <h3>20</h3>
+              <p>Project</p>
             </div>
             <h1 className="display-name">Javascript Game</h1>
             <div className="description">
