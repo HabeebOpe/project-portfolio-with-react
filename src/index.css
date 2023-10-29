@@ -69,7 +69,7 @@ body {
   font-family: 'Rajdhani', sans-serif;
 }
 .quotes h1{
-  font-size: 6rem;
+  font-size: 5rem;
   font-family: 'Rajdhani', sans-serif;
   text-shadow: 3px 6px darkorange; 
   padding: 0;
@@ -102,11 +102,10 @@ body {
 
 /*------------ITEM.JS STYLING--------- */
 .heading {
-  font-size: 25px;
-  padding: 5% 0 0 5%;
+  padding: 5% 5% 0 7%;
 }
 .heading h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   padding-left: 10px;
   border-left: 3px solid var(--primary-color);
   color: var(--primary-color);
@@ -132,7 +131,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 30%;
-  height: 350px;
+  height: 320px;
   border-radius: 20px;
   margin: 10px;
   padding: 0;
@@ -222,8 +221,8 @@ body {
   font-size: 18px;
 }
 @media screen and (max-width: 600px) {
-  .heading h1 {
-    font-size: 4rem;
+  .heading {
+    padding: 5% 0 0 5%;
   }
   .item-div {
     padding: 5% 0;
@@ -290,14 +289,14 @@ body {
 
 /*-----------ABOUT SECTION--------- */
 .about-section {
-  padding: 5% 15%;
+  padding: 5% 15% 5% 20%;
   color: var(--primary-color);
 }
 .about-section .about-flex {
   width: 100%;
   background-image: url(./asset/back.png);
   background-repeat: no-repeat;
-  background-size: 250px;
+  background-size: 300px;
   background-position-x: right;
   background-position-y: bottom;
   z-index: 9;
@@ -307,7 +306,7 @@ body {
   padding: 10px;
 }
 .about-flex h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 10px;
 }
 .about-des .about-dev {
