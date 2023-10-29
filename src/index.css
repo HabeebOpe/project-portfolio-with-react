@@ -8,43 +8,14 @@
   /* font-family: "Space Grotesk", sans-serif; */
   font-family: 'Rajdhani', sans-serif;
 }
+:root {
+  --primary-color: green;
+  --secondary-color: #1d1c1c;
+  --text: #fff;
+}
 body {
   background-color: #1d1c1c;
   position: relative;
-}
-/* .design-container {
-  position: absolute;
-  top: 0;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
-}
-.design-container div {
-  position: absolute;
-  transform: translateX(-50%);
-  background-color: transparent;
-  border: 1.5px solid #000;
-  border-radius: 50%;
-}
-
-.design-container div:nth-child(3) {
-  height: 90vh;
-  width: 90vh;
-}
-.design-container div:nth-child(2) {
-  height: 60vh;
-  width: 60vh;
-}
-.design-container div:nth-child(1) {
-  height: 30vh;
-  width: 30vh;
-} */
-:root {
-  --primary-color: darkorange; /*6121ce*/
-  --secondary-color: #1d1c1c;
-  --text: #fff;
 }
 .home {
   display: flex;
@@ -97,9 +68,9 @@ body {
   font-family: 'Rajdhani', sans-serif;
 }
 .quotes h1{
-  font-size: 5rem;
+  font-size: 6rem;
   font-family: 'Rajdhani', sans-serif;
-  text-shadow: 3px 6px darkorange;
+  text-shadow: 3px 6px darkorange; 
 }
 .quotes h1,
 .fact-div {
@@ -121,7 +92,7 @@ body {
     padding: 0;
   }
   .quotes h1 {
-    font-size: 35px;
+    font-size: 3rem;
   }
 }
 
@@ -131,6 +102,7 @@ body {
   padding: 5% 0 0 5%;
 }
 .heading h1 {
+  font-size: 5rem;
   padding-left: 10px;
   border-left: 3px solid var(--primary-color);
   color: var(--primary-color);
@@ -156,9 +128,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 30%;
-  height: 300px;
+  height: 350px;
   border-radius: 20px;
-  margin: 8px;
+  margin: 10px;
   padding: 0;
   background-color: var(--primary-color);
   overflow: hidden;
@@ -174,15 +146,16 @@ body {
   position: absolute;
   top: 10px;
   right: 10px;
+  display: flex;
+  align-items: center;
   padding: 10px;
-  font-size: 14px;
   border-radius: 10px;
   color: var(--text);
   background-color: var(--secondary-color);
 }
-.project-number span {
-  font-weight: bold;
-  font-size: 16px;
+.project-number p{
+  font-size: 18px;
+  margin-left: 5px;
 }
 .item:hover .project-name{
   opacity: 0;
@@ -192,6 +165,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  font-size: 2rem;
   padding: 10px;
   border-radius: 20px;
   color: #fff;
@@ -223,12 +197,12 @@ body {
 }
 .item .description h1 {
   text-align: center;
-  font-size: 25px;
+  font-size: 2rem;
   padding: 10px;
 }
 .description p {
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   padding: 10px;
   color: var(--text);
 }
@@ -241,9 +215,12 @@ body {
 .languages li {
   margin: 2px;
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
+  .heading h1 {
+    font-size: 5rem;
+  }
   .item-div {
     padding: 5% 0;
   }
@@ -294,14 +271,6 @@ body {
   border: 1.5px solid var(--primary-color);
   border-radius: 50%;
 }
-/* .design-container div:nth-child(5) {
-  height: 150vh;
-  width: 150vh;
-}
-.design-container div:nth-child(4) {
-  height: 120vh;
-  width: 120vh;
-} */
 .design-container div:nth-child(3) {
   height: 90vh;
   width: 90vh;
@@ -330,19 +299,20 @@ body {
   z-index: 9;
 }
 .about-des {
-  width: 40%;
+  width: 60%;
   padding: 10px;
 }
 .about-flex h1 {
-  font-size: 3.5rem;
+  font-size: 5rem;
   padding: 10px;
 }
 .about-des .about-dev {
   padding: 10px;
+  font-size: 20px;
   color: var(--text);
 }
 .about-des ul li {
-  width: 120px;
+  width: 150px;
   transition: 0.3s ease;
 }
 .about-des ul li:hover {
@@ -352,7 +322,7 @@ body {
   display: flex;
   align-items: center;
   padding: 10px;
-  font-size: 16px;
+  font-size: 25px;
   color: var(--text);
 }
 .about-des ul li a p {
@@ -374,7 +344,7 @@ body {
     padding: 8% 10px;
   }
   .about-des {
-    width: 60%;
+    width: 70%;
   }
   .design-container div:nth-child(3) {
     display: none;
@@ -395,7 +365,7 @@ body {
 .subscription form {
   width: 50%;
   height: auto;
-  padding: 15px;
+  padding: 17px;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -406,7 +376,7 @@ p {
   color: var(--text);
 }
 .subscription form p {
-  font-size: 16px;
+  font-size: 20px;
 }
 .subscription form p:last-child {
   text-align: center;
@@ -429,7 +399,7 @@ p {
   color: var(--text);
   background-color: rgb(0, 0, 0);
   outline: none;
-  font-size: 17px;
+  font-size: 20px;
   transition: 0.3s ease;
 }
 .subscription form .input-field input:focus {
@@ -477,8 +447,8 @@ p {
 }
 .footer-section p {
   text-align: center;
-  font-size: 15px;
-}
+  font-size: 18px;
+}  
 @media (max-width: 640px) {
   .footer-section {
     padding: 0;
