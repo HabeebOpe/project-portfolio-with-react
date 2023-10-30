@@ -346,6 +346,9 @@ body {
   .about-section {
     padding: 8% 5px;
   }
+  .about-section .about-flex {
+  background-size: 200px;
+}
   .about-des {
     width: 70%;
   }
