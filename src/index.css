@@ -296,7 +296,7 @@ body {
   width: 100%;
   background-image: url(./asset/back.png);
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: 250px;
   background-position-x: right;
   background-position-y: bottom;
   z-index: 9;
