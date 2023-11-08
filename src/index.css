@@ -161,7 +161,7 @@ body {
   font-size: 18px;
   margin-left: 5px;
 }
-.item:hover .project-number{
+.item.appear .project-number{
   opacity: 0;
 }
 .item .display-name{
@@ -177,7 +177,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   transition: 0.3s ease;
 }
-.item:hover .display-name{
+.item.appear .display-name{
   opacity: 0;
 }
 .item .description {
@@ -194,10 +194,6 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: 0.3s ease;
-}
-.item:hover .description {
-  bottom: 0;
-  opacity: 1;
 }
 .item .description h1 {
   text-align: center;
@@ -220,6 +216,10 @@ body {
   margin: 2px;
   padding: 10px;
   font-size: 18px;
+}
+.item.appear .description {
+  bottom: 0;
+  opacity: 1;
 }
 @media screen and (max-width: 600px) {
   .heading {

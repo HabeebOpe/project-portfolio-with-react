@@ -97,7 +97,7 @@
   align-items: center;
   justify-content:  center;
   background-color: rgba(0, 0, 0, 0.6);
-  display: none;
+  opacity: 0;
   transition: 0.2s ease;
 }
 .view-option a p {
@@ -113,8 +113,8 @@
 .view-option p:hover {
   background-color: var(--primary-color);
 }
-.proitem:hover .view-option{
-  display: flex;
+.proitem.appear .view-option{
+  opacity: 1;
 }
 @media (max-width: 600px) {
   .back-to-home{

@@ -7,11 +7,17 @@ import reactImg from "../asset/27969_88.jpg";
 import gameImg from "../asset/26170_73.jpg";
 
 export default function Item() {
-  
+    const handleClick = (event) => {
+    const li = event.currentTarget;
+    li.classList.add("appear")
+    setTimeout(() => {
+      li.classList.remove("appear")
+    }, 2000)
+  }
   return (
     <div className="item-div">
       <ul className="feature">
-        <li id="it" className="item">
+        <li id="it" className="item" onClick={handleClick}>
             <img src={cssImage} />
             <div className="project-number">
               <h3>20</h3>
@@ -36,7 +42,7 @@ export default function Item() {
             </div>
           </Link>
         </li>
-        <li className="item">
+        <li className="item" onClick={handleClick}>
           <img src={vanillaImg} />
             <div className="project-number">
               <h3>20</h3>
@@ -60,7 +66,7 @@ export default function Item() {
             </div>
           </Link>
         </li>
-        <li className="item">
+        <li className="item" onClick={handleClick}>
           <img src={landingImg} />
             <div className="project-number">
               <h3>20</h3>
@@ -82,7 +88,7 @@ export default function Item() {
             </div>
           </Link>
         </li>
-        <li className="item">
+        <li className="item" onClick={handleClick}>
         <img src={reactImg} />
             <div className="project-number">
               <h3>20</h3>
@@ -104,7 +110,7 @@ export default function Item() {
             </div>
           </Link>
         </li>
-        <li className="item">
+        <li className="item" onClick={handleClick}>
           <img src={gameImg} />
             <div className="project-number">
               <h3>20</h3>
