@@ -12,13 +12,13 @@ export default function Item() {
     <div className="item-div">
       <ul className="feature">
         <li id="it" className="item">
-          <Link to="/cssdesign">
             <img src={cssImage} />
             <div className="project-number">
               <h3>20</h3>
               <p>Project</p>
             </div>
             <h1 className="display-name">CSS Design</h1>
+            <Link to="/cssdesign">
             <div className="description">
               <div>
               <h1>CSS Design</h1>
@@ -37,13 +37,13 @@ export default function Item() {
           </Link>
         </li>
         <li className="item">
-          <Link to="/vanilla">
           <img src={vanillaImg} />
             <div className="project-number">
               <h3>20</h3>
               <p>Project</p>
             </div>
             <h1 className="display-name">Vanilla Js</h1>
+            <Link to="/vanilla">
             <div className="description">
               <div>
               <h1>Vanilla Js</h1> 
@@ -61,13 +61,13 @@ export default function Item() {
           </Link>
         </li>
         <li className="item">
-          <Link to="/landing">
           <img src={landingImg} />
             <div className="project-number">
               <h3>20</h3>
               <p>Project</p>
             </div>
             <h1 className="display-name">Landing Page</h1>
+            <Link to="/landing">
             <div className="description">
               <div>
               <h1>Landing Page</h1>
@@ -83,13 +83,13 @@ export default function Item() {
           </Link>
         </li>
         <li className="item">
-          <Link to="/react">
-          <img src={reactImg} />
+        <img src={reactImg} />
             <div className="project-number">
               <h3>20</h3>
               <p>Project</p>
             </div>
             <h1 className="display-name">Reactjs Project</h1>
+            <Link to="/react">
             <div className="description">
               <div>
               <h1>React Proj...</h1>
@@ -105,13 +105,13 @@ export default function Item() {
           </Link>
         </li>
         <li className="item">
-          <Link to="/game">
           <img src={gameImg} />
             <div className="project-number">
               <h3>20</h3>
               <p>Project</p>
             </div>
             <h1 className="display-name">Javascript Game</h1>
+            <Link to="/game">
             <div className="description">
               <div>
               <h1>Js Games</h1>
