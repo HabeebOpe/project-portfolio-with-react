@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap");
 * {
   padding: 0;
   margin: 0;
   list-style: none;
   outline: none;
-  /* font-family: "Space Grotesk", sans-serif; */
   font-family: 'Rajdhani', sans-serif;
 }
 :root {
@@ -94,6 +92,9 @@ body {
 @media (max-width: 765px) {
   .home {
     padding: 0;
+  }
+  .home-section{
+    padding: 0 5%;
   }
   .quotes h1 {
     font-size: 3rem;

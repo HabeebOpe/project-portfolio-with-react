@@ -97,13 +97,13 @@
   align-items: center;
   justify-content:  center;
   background-color: rgba(0, 0, 0, 0.6);
-  opacity:  0;
+  display: none;
   transition: 0.2s ease;
 }
 .view-option a p {
   padding: 10px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 18px;
   border: 2px solid var(--primary-color);
   background-color: transparent;
   margin: 5px;
@@ -114,7 +114,7 @@
   background-color: var(--primary-color);
 }
 .proitem:hover .view-option{
-  opacity: 1;
+  display: flex;
 }
 @media (max-width: 600px) {
   .back-to-home{
