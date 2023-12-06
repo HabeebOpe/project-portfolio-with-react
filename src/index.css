@@ -161,9 +161,6 @@ body {
   font-size: 18px;
   margin-left: 5px;
 }
-.item.appear .project-number{
-  opacity: 0;
-}
 .item .display-name{
   position: absolute;
   bottom: 0;
@@ -177,50 +174,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   transition: 0.3s ease;
 }
-.item.appear .display-name{
-  opacity: 0;
-}
-.item .description {
-  position: absolute;
-  bottom: -100%;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  color: var(--text);
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  transition: 0.3s ease;
-}
-.item .description h1 {
-  text-align: center;
-  font-size: 2rem;
-  padding: 10px;
-}
-.description p {
-  text-align: center;
-  font-size: 20px;
-  padding: 10px;
-  color: var(--text);
-}
-.languages {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 5px;
-}
-.languages li {
-  margin: 2px;
-  padding: 10px;
-  font-size: 18px;
-}
-.item.appear .description {
-  bottom: 0;
-  opacity: 1;
-}
+
 @media screen and (max-width: 600px) {
   .heading {
     padding: 5% 0 0 5%;

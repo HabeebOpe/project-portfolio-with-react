@@ -7,131 +7,64 @@ import reactImg from "../asset/27969_88.jpg";
 import gameImg from "../asset/26170_73.jpg";
 
 export default function Item() {
-    const handleClick = (event) => {
-    const li = event.currentTarget;
-    li.classList.add("appear")
-    setTimeout(() => {
-      li.classList.remove("appear")
-    }, 2000)
-  }
+  // const handleClick = (event) => {
+  //   const li = event.currentTarget;
+  //   li.classList.add("appear")
+  //   setTimeout(() => {
+  //     li.classList.remove("appear")
+  //   }, 5000)
+  // }
   return (
     <div className="item-div">
       <ul className="feature">
-        <li id="it" className="item" onClick={handleClick}>
+        <li id="it" className="item">
+        <Link to="/cssdesign">
             <img src={cssImage} />
             <div className="project-number">
               <h3>20</h3>
               <p>Project</p>
             </div>
             <h1 className="display-name">CSS Design</h1>
-            <Link to="/cssdesign">
-            <div className="description">
-              <div>
-              <h1>CSS Design</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                maiores ut ducimus necessitatibus, et doloremque
-              </p>
-              <ul className="languages">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>Tailwind CSS</li>
-              </ul>
-              </div>
-            </div>
-          </Link>
+        </Link>
         </li>
-        <li className="item" onClick={handleClick}>
+        <li className="item">
+        <Link to="/vanilla">
           <img src={vanillaImg} />
             <div className="project-number">
               <h3>20</h3>
               <p>Project</p>
             </div>
             <h1 className="display-name">Vanilla Js</h1>
-            <Link to="/vanilla">
-            <div className="description">
-              <div>
-              <h1>Vanilla Js</h1> 
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                maiores ut ducimus necessitatibus, et doloremque
-              </p>
-              <ul className="languages">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-              </ul>
-              </div>
-            </div>
-          </Link>
+        </Link>
         </li>
-        <li className="item" onClick={handleClick}>
+        <li className="item">
+        <Link to="/landing">
           <img src={landingImg} />
             <div className="project-number">
               <h3>20</h3>
               <p>Project</p>
             </div>
             <h1 className="display-name">Landing Page</h1>
-            <Link to="/landing">
-            <div className="description">
-              <div>
-              <h1>Landing Page</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                maiores ut ducimus necessitatibus, et doloremque
-              </p>
-              <ul className="languages">
-              <li>Frontend languages</li>
-              </ul>
-              </div>
-            </div>
           </Link>
         </li>
-        <li className="item" onClick={handleClick}>
+        <li className="item">
+        <Link to="/react">
         <img src={reactImg} />
             <div className="project-number">
               <h3>20</h3>
               <p>Project</p>
             </div>
             <h1 className="display-name">Reactjs Project</h1>
-            <Link to="/react">
-            <div className="description">
-              <div>
-              <h1>React Proj...</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                maiores ut ducimus necessitatibus, et doloremque
-              </p>
-              <ul className="languages">
-              <li>React Library</li>
-              </ul>
-              </div>
-            </div>
           </Link>
         </li>
-        <li className="item" onClick={handleClick}>
+        <li className="item">
+        <Link to="/game">
           <img src={gameImg} />
             <div className="project-number">
               <h3>20</h3>
               <p>Project</p>
             </div>
             <h1 className="display-name">Javascript Game</h1>
-            <Link to="/game">
-            <div className="description">
-              <div>
-              <h1>Js Games</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                maiores ut ducimus necessitatibus, et doloremque
-              </p>
-              <ul className="languages">
-              <li>Javascript</li>
-              <li>CSS</li>
-              <li>HTML</li>
-              </ul>
-              </div>
-            </div>
           </Link>
         </li>
       </ul>

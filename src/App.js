@@ -7,6 +7,9 @@ import Subscribe from "./main/Subscribe";
 import Footer from "./main/Footer";
 import About from "./main/About";
 import Cssdesign from "./submain/Cssdesign";
+import itemReact from "./submain/React";
+import Vanilla from "./submain/Vanilla";
+import Game from "./submain/Game";
 import Projectcss from "./submain/Projectcss";
 import Projectvanilla from "./submain/Projectvanilla";
 import Projectgame from "./submain/Projectgame";
@@ -31,6 +34,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Item />} />
         <Route path="/cssdesign" element={<Cssdesign />} />
+        <Route path="/vanilla" element={<Vanilla />} />
+        <Route path="/landing" element={<Cssdesign />} />
+        <Route path="game" element={<Game />} />
+        <Route path="react" element={<itemReact />} />
       </Routes>
       <div className="design-pattern">
         <About />
