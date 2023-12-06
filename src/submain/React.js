@@ -21,7 +21,7 @@ export default function Itemreact() {
 
   const [item, setItem] = React.useState([])
   useEffect(() => {
-    const q = query(collection(db, "cssdesign"), orderBy("timestamp", "desc"))
+    const q = query(collection(db, "react"), orderBy("timestamp", "desc"))
     const unsub = onSnapshot(q, (snapshot) => 
       setItem(snapshot.docs.map((doc) => ({...doc.data(), id: doc.id})))
     );
