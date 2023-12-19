@@ -9,7 +9,7 @@ export default function Projectcss() {
         <Link to="/"><span className="back-to-home">back to home</span></Link>
         <h1 className="project-head-name">CSS Design</h1>
         <p>
-          All projects designed with HTML CSS and other CSS frameworks only.
+          All projects are designed in HTML CSS and other CSS frameworks only.
         </p>
       </div>
       <div className="design"></div>

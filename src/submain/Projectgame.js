@@ -9,7 +9,7 @@ export default function Projectgame() {
       <Link to="/"><span className="back-to-home">back to home</span></Link>
         <h1 className="project-head-name">Vanilla Js Game</h1>
         <p>
-          All project designed and coded with HTML, CSS, Javascript and other Javascript frameworks 
+          All projects are designed and coded in HTML, CSS, Javascript and other Javascript frameworks 
         </p>
       </div>
       <div className="design"></div>

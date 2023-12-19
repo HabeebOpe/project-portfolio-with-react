@@ -9,7 +9,7 @@ export default function Projectlanding() {
         <Link to="/"><span className="back-to-home">back to home</span></Link>
         <h1 className="project-head-name">Landing Page</h1>
         <p>
-          All projects designed and coded with HTML, CSS and javascript for some
+          All projects are designed and coded in HTML, CSS and javascript for some
         </p>
       </div>
       <div className="design"></div>

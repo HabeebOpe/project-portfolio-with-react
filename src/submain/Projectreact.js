@@ -9,7 +9,7 @@ export default function Projectraect() {
       <Link to="/"><span className="back-to-home">back to home</span></Link>
         <h1 className="project-head-name">React Project</h1>
         <p>
-          All projects designed and coded with react alone and CSS for designing.
+          My react projects are not hosted for now, cause I have mainly been using  react for bigger projects example is this project base, and the code are not public. You can kindly subscribe to get notified if i release a new project
         </p>
       </div>
       <div className="design"></div>
