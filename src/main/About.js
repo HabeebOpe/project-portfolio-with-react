@@ -7,8 +7,7 @@ export default function About() {
         <h1>Meet the Developer</h1>
         <div className="about-des">
           <p className="about-dev">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sapiente tenetur sequi ab nam, architecto quasi nulla minus voluptas ipsam repellat ullam molestias.
-            laboriosam a fuga autem repellendusnumquam accusantium! orem isapiente tenetur sequi ab nam, architecto quasi nulla minus voluptas.
+          Hi, I'm Habeebullah Okunlola, a web developer and designer passionate about bringing creativity and innovation to projects. The project base was essentially created to store my projects for easy preview by clients and potential managers. Through this, I discovered it should be a site for aspiring frontend developers like me to get project ideas for their next endeavor. I love building and designing projects, as well as solving problems, which is why this project base was created. Click the portfolio link below to learn more about me.
           </p>
           <ul>
             <li>
