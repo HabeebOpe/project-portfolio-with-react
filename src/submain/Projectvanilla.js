@@ -9,10 +9,7 @@ export default function Projectvanilla() {
       <Link to="/"><span className="back-to-home">back to home</span></Link>
         <h1 className="project-head-name">Vanilla Javascript</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-          eaque esse, dignissimos dicta delectus. Reprehenderit labore esse
-          porro dolor enim sed harum. Rerum, vero perspiciatis porro recusandae
-          doloremque consequatur quas.
+          All projects are coded with Javascript and HTML and CSS for structure and designing. Projects in this section are not mainly design projects but are programmed projects.
         </p>
       </div>
       <div className="design"></div>

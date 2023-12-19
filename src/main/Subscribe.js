@@ -4,7 +4,7 @@ import "../index";
 export default function Subscribe() {
   return (
     <div className="subscription">
-      <form action="https://formspree.io/f/xnqeaqwj" method="POST">
+      <form action="https://formspree.io/f/mnqeavbg" method="POST">
         <h1>Subscribe for New Project</h1>
         <p>Get Email notification when I release a new project.</p>
         <p>No spam you can unsubscribe anytime</p>

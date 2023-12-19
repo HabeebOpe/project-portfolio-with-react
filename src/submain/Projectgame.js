@@ -9,10 +9,7 @@ export default function Projectgame() {
       <Link to="/"><span className="back-to-home">back to home</span></Link>
         <h1 className="project-head-name">Vanilla Js Game</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-          eaque esse, dignissimos dicta delectus. Reprehenderit labore esse
-          porro dolor enim sed harum. Rerum, vero perspiciatis porro recusandae
-          doloremque consequatur quas.
+          All project designed and coded with HTML, CSS, Javascript and other Javascript frameworks 
         </p>
       </div>
       <div className="design"></div>

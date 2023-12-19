@@ -6,16 +6,15 @@ export default function Section() {
     <div className="home-section">
       <div className="quotes">
         <h1>
-          Hey, Welcome to<span> Zodiac </span>Project Base.
+          Hey, it's Habeebullah and Welcome to<span> Zodiac </span>Project Base.
         </h1>
         <div className="fact-div">
           <p>
-            Building projects is the most important way to learn anything, and
-            <span> WEB DEVELOPMENT</span> is no exception
+            Explore my project base to get creative and ideas for your next project
           </p>
         </div>
         <h2 className="become-a-developer">
-          Level up your Frontend Skill with our Awesome Projects
+          Level up your Frontend Skill with my Awesome Projects
         </h2>
       </div>
     </div>

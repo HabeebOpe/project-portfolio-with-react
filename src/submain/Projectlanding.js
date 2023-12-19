@@ -9,10 +9,7 @@ export default function Projectlanding() {
         <Link to="/"><span className="back-to-home">back to home</span></Link>
         <h1 className="project-head-name">Landing Page</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-          eaque esse, dignissimos dicta delectus. Reprehenderit labore esse
-          porro dolor enim sed harum. Rerum, vero perspiciatis porro recusandae
-          doloremque consequatur quas.
+          All projects designed and coded with HTML, CSS and javascript for some
         </p>
       </div>
       <div className="design"></div>

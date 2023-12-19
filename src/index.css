@@ -248,8 +248,8 @@ body {
   color: var(--primary-color);
 }
 .about-section .about-flex {
-  width: 100%;
-  background-image: url(./asset/back.png);
+  width: 100%; 
+  background-image: url(./asset/abo.png);
   background-repeat: no-repeat;
   background-size: 250px;
   background-position-x: right;
@@ -317,7 +317,7 @@ body {
   padding: 10% 10%;
   display: flex;
   justify-content: right;
-  background-image: url(./asset/back.png);
+/*   background-image: url(./asset/back.png); */
   background-repeat: no-repeat;
   background-size: 250px;
   background-position-x: 10%;

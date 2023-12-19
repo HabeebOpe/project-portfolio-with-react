@@ -20,50 +20,50 @@ export default function Item() {
         <li id="it" className="item">
         <Link to="/cssdesign">
             <img src={cssImage} />
-            <div className="project-number">
-              <h3>20</h3>
-              <p>Project</p>
-            </div>
+            // <div className="project-number">
+            //   <h3>20</h3>
+            //   <p>Project</p>
+            // </div>
             <h1 className="display-name">CSS Design</h1>
         </Link>
         </li>
         <li className="item">
         <Link to="/vanilla">
           <img src={vanillaImg} />
-            <div className="project-number">
-              <h3>20</h3>
-              <p>Project</p>
-            </div>
+            // <div className="project-number">
+            //   <h3>20</h3>
+            //   <p>Project</p>
+            // </div>
             <h1 className="display-name">Vanilla Js</h1>
         </Link>
         </li>
         <li className="item">
         <Link to="/landing">
           <img src={landingImg} />
-            <div className="project-number">
-              <h3>20</h3>
-              <p>Project</p>
-            </div>
+            // <div className="project-number">
+            //   <h3>20</h3>
+            //   <p>Project</p>
+            // </div>
             <h1 className="display-name">Landing Page</h1>
           </Link>
         </li>
         <li className="item">
         <Link to="/react">
         <img src={reactImg} />
-            <div className="project-number">
-              <h3>20</h3>
-              <p>Project</p>
-            </div>
+            // <div className="project-number">
+            //   <h3>20</h3>
+            //   <p>Project</p>
+            // </div>
             <h1 className="display-name">Reactjs Project</h1>
           </Link>
         </li>
         <li className="item">
         <Link to="/game">
           <img src={gameImg} />
-            <div className="project-number">
-              <h3>20</h3>
-              <p>Project</p>
-            </div>
+            // <div className="project-number">
+            //   <h3>20</h3>
+            //   <p>Project</p>
+            // </div>
             <h1 className="display-name">Javascript Game</h1>
           </Link>
         </li>

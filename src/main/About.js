@@ -7,25 +7,25 @@ export default function About() {
         <h1>Meet the Developer</h1>
         <div className="about-des">
           <p className="about-dev">
-          Hi, I'm Habeebullah Okunlola, a web developer and designer passionate about bringing creativity and innovation to projects. The project base was essentially created to store my projects for easy preview by clients and potential managers. Through this, I discovered it should be a site for aspiring frontend developers like me to get project ideas for their next endeavor. I love building and designing projects, as well as solving problems, which is why this project base was created. Click the portfolio link below to learn more about me.
+          Hi, I'm Habeebullah Okunlola, a web developer and designer passionate about bringing creativity and innovation to projects. The project base was essentially created to store my projects for easy preview by devs, friends, clients and potential managers. Through this, I discovered it should be a site for aspiring frontend developers like me to get project ideas for their next endeavor. I love building and designing projects, as well as solving problems, which is why this project base was created. Click the portfolio link below to learn more about me.
           </p>
           <ul>
             <li>
-              <a href="https://github.com/HabeebOpe">
+              <a target="_blank" href="https://github.com/HabeebOpe">
                 <i className="fa-brands fa-github"></i>
                 <p>Git-hub</p>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/habeebullaope?t=9baxs9N4-rDfri5OI2EFMA&s=09">
+              <a target="_blank" href="https://twitter.com/habeebullaope?t=9baxs9N4-rDfri5OI2EFMA&s=09">
                 <i className="fa-brands fa-twitter"></i>
                 <p>Twitter</p>
               </a>
             </li>
             <li>
-              <a href="https://medium.com/@habeebullahokunlola">
-                <i className="fa-brands fa-medium"></i>
-                <p>Medium</p>
+              <a href="https://habeebullah-okunlola.netlify.app/" target="_blank">
+                <i className="fas fa-briefcase"></i>
+                <p>Portfolio</p>
               </a>
             </li>
           </ul>
