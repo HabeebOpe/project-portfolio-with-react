@@ -1,6 +1,5 @@
 import React from "react";
 import "../prolist.css";
-import img from "../asset/name.png";
 import { useState, useEffect } from "react";
 import { db } from "../Firebase";
 import { 
@@ -36,8 +35,8 @@ export default function Cssdesign() {
         <div className="item-img">
           <img src={cssList.imageUrl} alt="project demo image" />
           <div className="view-option">
-            <a href={cssList.live}><p>Live site</p></a>
-            <a href={cssList.github}><p>Source code</p></a>
+            <a href={cssList.live} target="_blank"><p>Live site</p></a>
+            <a href={cssList.github} target="_blank"><p>Source code</p></a>
           </div>
         </div>
       </li> 
